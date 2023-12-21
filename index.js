@@ -21,4 +21,8 @@ async function main() {
   console.dir(targetUser.toJSON(), { depth: null });
 }
 
-// main();
+main();
+
+// require('dotenv').config();
+
+// console.log(process.env);
